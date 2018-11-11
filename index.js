@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- cart.push({itemName: item}, {itemPrice: Math.random()*10})
+ cart.push({itemName: item}, {itemPrice: Math.random()*math.floor(100)})
 
  return `${item} has been added to your cart.`
 }
